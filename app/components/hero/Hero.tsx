@@ -12,9 +12,6 @@ export default function Hero() {
     alt="Background"
     className="absolute md:h-[800px] h-[440px]  object-center inset-0 w-full  z-0"
    />
-   {/* <div  className="absolute bg-[url('../app/assets/images/heroBackground.png')] md:h-[800px] h-[540px] w-full  bg-auto bg-center  md:bg-center md:bg-cover inset-0 md:w-full  z-0">
-
-   </div>  */}
    <div className="absolute inset-0 bg-gradient-to-b from-[#092820] z-10" />
 
    <div className="relative z-20 flex items-center justify-center h-full">
@@ -22,13 +19,12 @@ export default function Hero() {
      spaceBetween={1}
      slidesPerView={1}
      autoplay={{
-      delay: 4000, // tempo entre slides (em ms)
-      disableOnInteraction: false, // para não parar ao interagir
+      delay: 4000,
+      disableOnInteraction: false,
      }}
      modules={[Autoplay, Navigation, Pagination]}
      navigation
      pagination={{ clickable: true }}
-     onSwiper={(swiper) => console.log(swiper)}
      className="hero-swiper relative"
     >
      <SwiperSlide className=" swpslider  absolute h-full">

@@ -52,6 +52,7 @@ export default function PreviewAbout() {
       </div>
       <a
        href="/"
+       aria-label="Saiba Mais"
        className="md:inline-block flex  px-3 py-2 justify-center uppercase font-bold rounded-md text-sm bg-[#8B941F] hover:bg-[#a2a57c] text-white transition-colors"
       >
        Saiba Mais
