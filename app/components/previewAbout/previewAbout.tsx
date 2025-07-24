@@ -12,7 +12,7 @@ export default function PreviewAbout() {
  }, []);
  return (
   <section className="w-full container mx-auto my-10">
-   <div className="flex w-full xl:flex-row flex-col px-4 md:px-0">
+   <div className="flex w-full xl:flex-row justify-center lg:items-center flex-col px-4 md:px-0">
     <img
      src={companyImg}
      alt="Background"
